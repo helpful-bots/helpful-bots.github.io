@@ -1,0 +1,107 @@
+html {
+	scroll-behavior: smooth;
+	background-color: black;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 20px;
+}
+
+
+.img {
+	background-color: black;
+	display: block;
+	margin: auto;
+	width: 99vw;
+	filter: blur(5px);
+}
+.arrow {
+	padding: 5px;
+	width: 50px !important;
+	height: 50px !important;
+	position: relative;
+	bottom: 120px;
+	left: calc(50vw - 25px)
+}
+
+.arrow:hover {
+	background-color: rgba(177, 177, 177, 0.219) !important;
+	border-radius: 50%;
+}
+
+.txt {
+	position: relative;
+	top: -300px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	display: block;
+	text-align: center;
+	color: white;
+	z-index: 20;
+	font-weight: lighter;
+}
+
+.header {
+	position: relative;
+	top: 0;
+}
+
+p {
+	color: white;
+}
+
+.down {
+	width: 50px !important;
+	height: 50px !important;
+	position: relative;
+}
+
+.link {
+	display: block;
+	width: 50px;
+	height: 50px;
+
+}
+
+.title {
+	padding: 30px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+	color: rgb(202, 202, 202);
+}
+
+
+.item {
+	text-decoration: none;
+	vertical-align: top;
+	margin: 50px;
+	text-align: center;
+	display: inline-block;
+	margin: 20px;
+	background-color: #2a2a2a;
+	width: 500px;
+	height: 400px;
+	box-shadow: 5px 5px 3px 2px #c5c5c56b;
+}
+
+
+.item:hover {
+	background-color: #3a3939
+}
+
+.item p {
+	padding: 5px;
+}
+
+.item img {
+	width: 400px;
+	height: 250;
+}
+
+.projects {
+	padding-top: 50px;
+}
+
+.projects a{
+	text-decoration: none;
+}
